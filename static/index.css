@@ -77,7 +77,6 @@ body{
 }
 
 .errors{
-  width: 400px;
   margin: auto;
   margin-top: 3rem;
   display: flex;
