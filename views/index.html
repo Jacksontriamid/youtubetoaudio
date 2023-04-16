@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>youtube to mp3 converter</title>
+</head>
+<body>
+    <div class="top-container">
+        <form id="form">
+
+            <h1><i class="fa-brands fa-youtube fa-beat-fade"></i> youtube to mp3 converter</h1>
+            <h4>Enter the video ID</h4>
+            <div>
+                <input type="text" class="video-id" name="videoID" placeholder="video ID"><button id="convert-btn" type="button">Convert</button>
+            </div>
+        </form>
+    </div>
+    <div class="bottom-container">
+        <div class="success">
+        <p></p>
+            <a class="song-link"><button id="download-btn">Download</button></a>
+        </div>
+            <div class="errors">
+            <p class="errors-p"></p>
+            </div>
+    </div>
+    <script src="client.js"></script>
+</body>
+</html>
